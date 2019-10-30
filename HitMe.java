@@ -1,14 +1,27 @@
-import java.io.*;
+import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
-class HitMe {
+public class HitMe {
   public static void main(String[] args) {
-    int a = 10;
-    int b = 20;
-    int sum = add(a,b);
-    System.out.println(sum);
+    try {
+	    BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+	    System.out.println("Enter the operands : ");
+	    int a = Integer.parseInt(input.readLine());
+	    int b = Integer.parseInt(input.readLine());
+	    int sum = add(a, b);
+	    int subtract = sub(a, b);
+	    System.out.println(sum);
+    } catch (IOException exc) {
+    	exc.printStackTrace();
+    }
   }
 
   public static int add(int a, int b) {
-    return a+b;
+    return (a + b);
+  }
+
+  public static int sub(int a, int b) {
+	return (a - b);
   }
 }
