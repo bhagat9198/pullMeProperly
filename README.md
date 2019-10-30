@@ -5,6 +5,7 @@ I will accept your pull request if you add more fuctions to the exisiting
   Java program or 
   Python program
   
-If you dont know any of the languages, try to edit README.md file
+If you dont know any of the languages, try to edit README.md file.
+Make your changes by creating a newBranch.
 
 -Happy Hacking-
