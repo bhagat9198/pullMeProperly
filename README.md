@@ -1,5 +1,9 @@
 # pullMeProperly
 
+Welcome all to git !!!
+(learn to code + have fun) 
+try sending me a pull request now !!
+
 I will accept your pull request if you add more fuctions to the exisiting 
   C program,
   Java program or 
