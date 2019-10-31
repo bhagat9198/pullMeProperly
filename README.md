@@ -8,4 +8,4 @@ I will accept your  pull request if you add more fuctions to the exisiting
   
 If you dont know any of the languages, try to edit README.md file
 
--Happy Hacking-
+-!Happy Hacking!-
