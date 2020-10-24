@@ -1,0 +1,30 @@
+int* compareTriplets(int a_count, int* a, int b_count, int* b, int* result_count) 
+{
+
+   int i,j;
+     for(i=0;i<3;i++)
+     for(j=0;j<3;j++)
+     {
+         scanf("%d %d",&a[i],&b[j]);
+     }
+
+   for(i=0;i<3;i++)
+   for(j=0;j<3;j++)
+   {
+    while (i==j)
+      { if (a[i]>b[j])
+       {
+           a_count++;
+       }
+       else if (a[i]<b[j])
+       {
+           b_count++;
+       }
+        else if (a[i]==b[j])
+       {
+           continue;
+         }     }
+   }
+  printf("%d %d" ,a_count,b_count);
+
+   return 0;
