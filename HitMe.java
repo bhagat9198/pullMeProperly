@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+
 public class HitMe {
   public static void main(String[] args) {
     try {
@@ -25,3 +26,4 @@ public class HitMe {
 	return (a - b);
   }
 }
+
