@@ -1,19 +1,20 @@
 # pullMeProperly
 
-
 Welcome all to git !!!
-(learn to code + have fun) 
+(learn to code + have fun)
 try sending me a pull request now !!
 
-I will accept your pull request if you add more fuctions to the exisiting 
+I will accept your pull request if you add more fuctions to the exisiting
 
+C program,
+Java program or
+Python program
+n normal text file
 
-  C program,
-  Java program or 
-  Python   program
-  n normal   text file
-  
 If you dont know any of the languages, try to edit README.md file.
 Make your changes by creating a newBranch.
 
 -!!Happy Hacking ...!!-
+
+To use the javascript functions, <br />
+Install [NodeJs](https://nodejs.org/en/)
