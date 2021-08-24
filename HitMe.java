@@ -25,4 +25,12 @@ public class HitMe {
   public static int sub(int a, int b) {
     return (a - b);
   }
+
+  public static void isEven(int a) {
+    if (a % 2 == 0) {
+      System.out.println("Even Number");
+    } else {
+      System.out.println("Odd Number");
+    }
+  }
 }
